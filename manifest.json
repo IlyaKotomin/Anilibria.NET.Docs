@@ -1,0 +1,789 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/!Code/Anilibria/Anilibria.NET.Docs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Builders.SearchQueryBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Builders.SearchQueryBuilder.html",
+          "hash": "T7isSYqx3z7A0yI48vwi8dXdrUxKI1GbGDRm0sQyqWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Builders.html",
+          "hash": "52VepdkZ1nv9qACRLiu/Gi+oKSA4z/TxGCU3svIQytA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Client.AnilibriaAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Client.AnilibriaAPI.html",
+          "hash": "Emg73vNQgQdkMLxY4fqS+tUaht5D3nVpQgqyVNkhPL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Client.AnilibriaClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Client.AnilibriaClient.html",
+          "hash": "KvkDLdsqF2csHHH5U+1QNw+4vGgwXIicdqqrsxIdDjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Client.AnilibriaInvalidUserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Client.AnilibriaInvalidUserException.html",
+          "hash": "TcIMwMWfMdqhNgpmMyQPTa7+eca+3xt0Mmhm9A/fTn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Client.html",
+          "hash": "FxNQIcdA88EH+B3FsYSmTXfP0lVCvWPfiHSaaSuHNHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogEventArgs.html",
+          "hash": "1QZ8WpINRyaZz+Eq+76ckH7joFWixI/vibVZ9fod6Sw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogReasonContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogReasonContext.html",
+          "hash": "V9+X4n4DxMBIs35flLI3KhKZ4N+Kzk2B2pwGV3KKAX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.LogType.html",
+          "hash": "k803KvjToUjAZUZy78N1629u0ukzeZ6Wr8ViKwO8u48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.Logger.LogEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.Logger.LogEventHandler.html",
+          "hash": "WZ1P3SUpnEeGmgGh0KgCC4Cwuz0RpwJ4skVa9NN0UeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.Logger.html",
+          "hash": "vrjDtnolhU9FcFKdfB7QnAjPV/58psLyHNCNZMY4B4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Helpers.LogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Helpers.LogSystem.html",
+          "hash": "aqt1tYwNBMONMs8NH2BmiwEzc2q537TFmSUC654KiIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.AnilibriaUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.AnilibriaUser.html",
+          "hash": "2DEtjROnojM7jbrCsTB3R10SgrdZPL/uao7WH768p8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.CISDaysOfWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.CISDaysOfWeek.html",
+          "hash": "cay5bRO6VlUb+ZWw53Z4gCLcKYEV1i333y0phDanEdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.Feed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.Feed.html",
+          "hash": "8TVUEkIGGTeZo250kpFS5ykl6Xbcl3FvV6B9D8/ZlQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.GenresSortingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.GenresSortingType.html",
+          "hash": "h1sxdhS+5SBGT/FQkvasXnT62LPNunUzBJxiYWa9z/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.Schedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.Schedule.html",
+          "hash": "DvdwTsPXJJFK6AOhpuLaH0P9DuidmRqnTrr5B0+9vVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.BlockedConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.BlockedConfiguration.html",
+          "hash": "ZV4PJva9y/dAQbYL5gvvAYBn8LHAL9cdW2pUcAdcLII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.NamesConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.NamesConfiguration.html",
+          "hash": "w3c4o7mKnZo15te0VJBkzOHwaSUhs1bG9StEieIdHQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.SeasonConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.SeasonConfiguration.html",
+          "hash": "uVwBWUzeUeZulnjAL5onrefW+VCaXqIUky74fSqoicY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.StatusConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.StatusConfiguration.html",
+          "hash": "tAk33I4jw7cCk1QP36q9T82gaBSb7jXX+oBTL8lnx18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.TitleTypeConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.TitleTypeConfiguration.html",
+          "hash": "GyTbymXEd4KxnaS25nb0mZK2auqXGhNudhlmpAimTAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Configurations.html",
+          "hash": "ZRlhsxHGut3Vr7tmGwyRh6GiMFXjvMtgx+8o7tUArmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.Episode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.Episode.html",
+          "hash": "hEzSkQQVEdMSeS/r0GsRovQMGf85L7cHxxgczT2TRII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.HotLinks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.HotLinks.html",
+          "hash": "wBPQuO2r6AbGPfMioTGqdYIzZ1YcN8KWX6Cb7130bqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.Skips.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.Skips.html",
+          "hash": "abnq/xnO9IHrLgmCT7jZg4Kh2p+UnVt7RMxltRwbI64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.EpisodeModel.html",
+          "hash": "P6eJ25VTt4Zmm9v3966bCE833GzPXOGP+bMRsXHh9Ew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.Player.html",
+          "hash": "SxkPjQTyf0AzILMllkLMsVlmcYaqj0BsfiSUwQScywk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.Series.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.Series.html",
+          "hash": "v8RoNa2jMYhF2TLftJ0fYd4L639ZVme4h87pf1gEZBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PlayerModel.html",
+          "hash": "B8lxwz96VGzm8OtSb142Cq9ip85UgjsvFVhj5YqH5ks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.Poster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.Poster.html",
+          "hash": "+3ouMrbMNaE7bqwzgS5NNjXYpazP143q2JZDUjvQ9wY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.Posters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.Posters.html",
+          "hash": "ppHckDEsNdVt7keAJsG5BZr/mZ11kuNZN7M/g77u654="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.PostersModel.html",
+          "hash": "TGpw2x7R+FMkDMgTfpMbndAfIAFv+99Ya0bP9hmzrTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Season.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Season.html",
+          "hash": "mSq5o8friDdiEs+ysNZ0gnCBkQKGsETxoAe+l08TM7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Team.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Team.html",
+          "hash": "oXJtwcVEQe8MSts1kG6UQTewZ54Kwyciev1N17uGhA4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.Title.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.Title.html",
+          "hash": "2RiqryErXyd0LdDKf/MnNpXobVQt8Binjh0xnBmaLyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TitleStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TitleStatus.html",
+          "hash": "d8w6/JGzggqJkKRn+ajh7cPKuRr57XVLI1z3mMsTtzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TitleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TitleType.html",
+          "hash": "BUFrYcRYvc1bJtAZn3CUTJagsrVaRctwB1AlCKS0sZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.Torrent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.Torrent.html",
+          "hash": "KcjlUvce4vIVLTwoUSIm66zziU+aAlpTBW++eZ8HF04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFile.html",
+          "hash": "tWRAQ9/+kMgCol8I8vflDgaiT3Rx14179ZKv68jYOlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.MetadateFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.MetadateFile.html",
+          "hash": "OUQgv/CvC7Pk5qZqvt06r0Qm/b7EtQddAqN5/73jNkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.TorrenetMetadate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.TorrenetMetadate.html",
+          "hash": "sAtVafAUbHPc3nE53jmnQfQHs9N+iYlKbjfFuqk7SCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentFileMetadataModel.html",
+          "hash": "x1IUg1ny2gVmpMForE6UhuhswzfzlJCgdTEAlwKX+uU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentQuality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.TorrentQuality.html",
+          "hash": "NDpFnyISiel31zx7A6lSU6+dPY9nIXnJS8FPdlTNmTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.TorrentFileModel.html",
+          "hash": "//yTzEgY5XVCON231M4PCvxuNR0jtXauePGPWr4pvCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.TorrentsModel.html",
+          "hash": "zaoFEbxh4wZy7RNo2YZ3up0rQ9dii4MRrNAq7ZZJYR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.TitleModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.TitleModel.html",
+          "hash": "GmYapKhlTd8o3EJhB1LG/DBrQ8F80Un6BrjmY4k9BNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.YouTubePost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.YouTubePost.html",
+          "hash": "Lolg1PQqY0DOvPIOBbQJ41MBAelLi67h3IVloLarRQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.Models.html",
+          "hash": "UXKH1QoEfCiiJtBrMN+UN2Q1zit+VPbMUSVux+e5OgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.SubscribingSystem.Subscriber.TitleRecievedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.SubscribingSystem.Subscriber.TitleRecievedEventHandler.html",
+          "hash": "xyTTnPilK8s9F9suqITH6z0DCxJYtVucIJEmdrht+YU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.SubscribingSystem.Subscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.SubscribingSystem.Subscriber.html",
+          "hash": "UbLqigfp777yi3sPS1/EHWn2DJnig4gMIiiJARnhp4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.SubscribingSystem.TitleRecievedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.SubscribingSystem.TitleRecievedEventArgs.html",
+          "hash": "9yWx1yJlwM9OTAN5db8AO0kUc3rmZ2UHf2jcENeqTCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anilibria.NET.SubscribingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anilibria.NET.SubscribingSystem.html",
+          "hash": "97lEVPIlo/wlkcdLmHl1//yqQm1Y+h/T9ac3AiDVU1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "rAky0PNmlIn1jJCkNd/UZfv1PbWeMJUcWkAGaNd9Kp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "M1KEi9DBBS5PssHnnBVK/VSJjh+mf2H435h125OFAc0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "IzsSti6ryusdFqvsMFzbPT2NHx0ujliN9uIjAuwXqRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "2+R3BVw2DruDdq1j3EyfULXlIy9FeSWVYhWuTS0Yo8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ANILIBRIALOGO.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ANILIBRIALOGO.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "73tqSnk0rI4QhnSD24ms/KEWgvciyl/E6PEi2vcdI6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "gVYBbpod6EKjcoBMmazMe4ciagOLNBUOlDgltIEGV2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 53,
+          "skipped_file_count": 53
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
