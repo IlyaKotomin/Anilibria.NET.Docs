@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class SearchQueryBuilder
+     | Anilibria.NET API </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class SearchQueryBuilder
+     | Anilibria.NET API ">
+      <meta name="generator" content="docfx 2.59.4.0">
+      
+      <link rel="shortcut icon" href="../images/ANILIBRIALOGO.png">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      
+      <meta property="docfx:rel" content="../">
+      <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../images/ANILIBRIALOGO.png" alt="Anilibria.NET API" class="logomark">
+              <span class="brand-title">Anilibria.NET API</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+                    
+                    <div>
+                      <div class="mobile-hide">
+                        
+                        <a class="brand" href="../index.html">
+                          <img src="../images/ANILIBRIALOGO.png" alt="Anilibria.NET API" class="logomark">
+                          <span class="brand-title">Anilibria.NET API</span>
+                        </a>  </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+                    
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+                  <strong>Author: Ilya Kotomin</strong>
+                  
+                </div>            </nav>
+
+            <main class="main-panel">
+                
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+                <div role="main" class="hide-when-search">
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="Anilibria.NET.Builders.SearchQueryBuilder">
+  
+  
+  <h1 id="Anilibria_NET_Builders_SearchQueryBuilder" data-uid="Anilibria.NET.Builders.SearchQueryBuilder" class="text-break">Class SearchQueryBuilder
+  </h1>
+  <div class="markdown level0 summary"><p>Query builder class. Use it to search titles at
+<a class="xref" href="Anilibria.NET.Client.AnilibriaAPI.html#Anilibria_NET_Client_AnilibriaAPI_SearchTitlesAsync_Anilibria_NET_Builders_SearchQueryBuilder_">SearchTitlesAsync(SearchQueryBuilder)</a>.
+You get search by voiceover team, text, ganres, seasons and years</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SearchQueryBuilder</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Anilibria.NET.Builders.html">Anilibria.NET.Builders</a></h6>
+  <h6><strong>Assembly</strong>: Anilibria.NET.dll</h6>
+  <h5 id="Anilibria_NET_Builders_SearchQueryBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SearchQueryBuilder</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder__ctor_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.#ctor*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder__ctor_System_Int32_System_Int32_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.#ctor(System.Int32,System.Int32)">SearchQueryBuilder(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creating of seach builder</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SearchQueryBuilder(int limit, int after)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Limit of Titles in response</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">after</span></td>
+        <td><p>Response tiltes after that index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_AfterIndex" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.AfterIndex">AfterIndex</h4>
+  <div class="markdown level1 summary"><p>Search titels after this index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AfterIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_LimitIndex" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.LimitIndex">LimitIndex</h4>
+  <div class="markdown level1 summary"><p>Titels limit in query</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LimitIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByDecors_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByDecors*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByDecors_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByDecors(System.String[])">SearchByDecors(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds decors to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByDecors(string[] decors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">decors</span></td>
+        <td><p>Decors to search</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByEditors_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByEditors*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByEditors_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByEditors(System.String[])">SearchByEditors(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds editors to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByEditors(string[] editors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">editors</span></td>
+        <td><p>Editors to search</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByGenres_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByGenres*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByGenres_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByGenres(System.String[])">SearchByGenres(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds genres to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByGenres(string[] genres)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">genres</span></td>
+        <td><p>Genres to search</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchBySeasons_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchBySeasons*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchBySeasons_Anilibria_NET_Models_TitleModel_Season___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchBySeasons(Anilibria.NET.Models.TitleModel.Season[])">SearchBySeasons(Season[])</h4>
+  <div class="markdown level1 summary"><p>Adds seasons to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchBySeasons(Season[] seasons)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Anilibria.NET.Models.TitleModel.Season.html">Season</a>[]</td>
+        <td><span class="parametername">seasons</span></td>
+        <td><p>Seasons to search key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByText_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByText*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByText_System_String_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByText(System.String)">SearchByText(String)</h4>
+  <div class="markdown level1 summary"><p>Adds text to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>text to search key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByTimings_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByTimings*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByTimings_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByTimings(System.String[])">SearchByTimings(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds timings to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByTimings(string[] timings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">timings</span></td>
+        <td><p>Timings to search</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByTranslators_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByTranslators*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByTranslators_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByTranslators(System.String[])">SearchByTranslators(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds translators to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByTranslators(string[] translators)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">translators</span></td>
+        <td><p>Translators to search</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByVoicers_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByVoicers*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByVoicers_System_String___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByVoicers(System.String[])">SearchByVoicers(String[])</h4>
+  <div class="markdown level1 summary"><p>Adds voicers to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByVoicers(string[] voicers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">voicers</span></td>
+        <td><p>Voicers to search keys</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByYear_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByYear*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByYear_System_Int32_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByYear(System.Int32)">SearchByYear(Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds year to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByYear(int year)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">year</span></td>
+        <td><p>Year to search key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByYear_" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByYear*"></a>
+  <h4 id="Anilibria_NET_Builders_SearchQueryBuilder_SearchByYear_System_Int32___" data-uid="Anilibria.NET.Builders.SearchQueryBuilder.SearchByYear(System.Int32[])">SearchByYear(Int32[])</h4>
+  <div class="markdown level1 summary"><p>Adds years to search</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchByYear(int[] years)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">years</span></td>
+        <td><p>Years to search key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>anilibria.tv</span>
+                </div>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>    </body>
+</html>
