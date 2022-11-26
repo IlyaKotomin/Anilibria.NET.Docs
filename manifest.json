@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "rAky0PNmlIn1jJCkNd/UZfv1PbWeMJUcWkAGaNd9Kp0="
+          "hash": "bTRedzVbzcoDGkd3Cc+YVx57H5s5Q9QhjZBWATMAm3c="
         }
       },
       "is_incremental": false,
@@ -708,12 +708,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/NuGetBig.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NuGetBig.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "73tqSnk0rI4QhnSD24ms/KEWgvciyl/E6PEi2vcdI6k="
+          "hash": "k7OVY7mLOS0Fxv8tE6/qBoOSaP6/tubO0nV9AZVWp4o="
         }
       },
       "is_incremental": false,

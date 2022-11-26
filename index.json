@@ -267,7 +267,7 @@
   "api/index.html": {
     "href": "api/index.html",
     "title": "PLACEHOLDER | Anilibria.NET API",
-    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+    "keywords": "PLACEHOLDER SOON"
   },
   "articles/intro.html": {
     "href": "articles/intro.html",
@@ -277,6 +277,6 @@
   "index.html": {
     "href": "index.html",
     "title": "This is the HOMEPAGE. | Anilibria.NET API",
-    "keywords": "This is the HOMEPAGE . Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "keywords": "This is the HOMEPAGE . SOON"
   }
 }
